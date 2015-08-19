@@ -13,17 +13,17 @@
     "url": "git+https://github.com/bgtg/react-boilerplate.git"
   },
   "author": "Italo A. Casas <italoacasas@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/bgtg/react-boilerplate/issues"
   },
   "homepage": "https://github.com/bgtg/react-boilerplate#readme",
-  "dependencies": {
-    "lodash": "^3.10.1",
-    "react": "^0.13.3",
-    "react-router": "^0.13.3"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "react-router": "^1.0.0-beta3",
+    "node-libs-browser": "^0.5.2",
+    "react": "^0.14.0-beta3",
+    "react-dom": "^0.14.0-beta3",
     "babel": "^5.8.21",
     "babel-core": "^5.8.21",
     "babel-eslint": "^4.0.5",
