@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bgtg/react-boilerplate.git"
+    "url": "git+https://github.com/italoacasas/react-boilerplate.git"
   },
   "author": "Italo A. Casas <italoacasas@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bgtg/react-boilerplate/issues"
+    "url": "https://github.com/italoacasas/react-boilerplate/issues"
   },
-  "homepage": "https://github.com/bgtg/react-boilerplate#readme",
+  "homepage": "https://github.com/italoacasas/react-boilerplate#readme",
   "dependencies": {},
   "devDependencies": {
     "react-router": "^1.0.0-beta3",
