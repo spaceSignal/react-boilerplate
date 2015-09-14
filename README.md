@@ -1,8 +1,8 @@
 # React Boilerplate
 
 ## Stack
-- React  v0.14.0-beta3
-- React Router  v1.0.0-beta3
+- React  v0.14.0-rc1
+- React Router  v1.0.0-rc1
 - Webpack
 - Babel
 - Sass
