@@ -1,5 +1,11 @@
 # React Boilerplate
 
+## For use
+
+1 - `npm install`
+2 - `npm start`
+3 - Open a Browser and go to [localhost:3000](localhost:3000)
+
 ## Stack
 - React  0.14.0
 - React Router  v1.0.0-rc3
