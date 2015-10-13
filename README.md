@@ -1,11 +1,13 @@
 # React Boilerplate
 
 ## Stack
-- React  v0.14.0-rc1
-- React Router  v1.0.0-rc1
+- React  0.14.0
+- React Router  v1.0.0-rc3
 - Webpack
 - Babel
 - Sass
+- Mocha
+- Chai
 
 ## Licence
 The MIT License (MIT)
