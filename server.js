@@ -17,11 +17,15 @@ if (process.env.NODE_ENV == 'development') {
   app.use(require('webpack-hot-middleware')(compiler));
 
   app.get('/img/:imgName', function (req, res) {
-    res.sendFile(path.join(__dirname, 'public', 'img', req.params.imgName));
+    res.sendFile(path.join(__dirname, 'public1', 'img', req.params.imgName));
   })
 
-  app.get('*', function(req, res) {
-    res.sendFile(path.join(__dirname, 'index.html'));
+  app.get('/*', function(req, res) {
+    res.sendFile(path.join(__dirname, 'public1', 'index.html'));
+  });
+
+  app.get('/*/create', function (req, res) {
+    res.sendFile(path.join(__dirname, 'public1', 'index.html'));
   });
 
   app.listen(3000, 'localhost', function(err) {
@@ -37,13 +41,17 @@ if (process.env.NODE_ENV == 'development') {
   app.get('/img/:imgName', function (req, res) {
     res.sendFile(path.join(__dirname, 'public','img', req.params.imgName));
   })
-
+  
+  app.get('/bundle.js', function (req, res) {
+    res.sendFile(path.join(__dirname, 'public', 'bundle.js'));
+  })
+  
   app.get('/', function (req, res) {
     res.sendFile(path.join(__dirname, 'public', 'index.html'));
   })
 
-  app.get('/bundle.js', function (req, res) {
-    res.sendFile(path.join(__dirname, 'public', 'bundle.js'));
+  app.get('/*', function (req, res) {
+    res.sendFile(path.join(__dirname, 'public', 'index.html'));
   })
 
   app.listen(process.env.PORT || 3000, '0.0.0.0', function (err) {
@@ -51,4 +59,3 @@ if (process.env.NODE_ENV == 'development') {
     console.log('Listening')
   });
 }
-
