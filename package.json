@@ -26,7 +26,7 @@
     "express": "4.14.0",
     "flux": "^2.1.1",
     "history": "^1.12.5",
-    "jquery": "^2.1.4",
+    "jquery": "^3.0.0",
     "json-loader": "^0.5.3",
     "jsx-loader": "^0.13.2",
     "node-libs-browser": "^0.5.3",
