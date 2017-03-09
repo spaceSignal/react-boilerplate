@@ -23,7 +23,7 @@
     "babel-loader": "^6.0.0",
     "babel-plugin-react-transform": "1.1.1",
     "css-loader": "0.19.0",
-    "express": "4.14.0",
+    "express": "4.15.2",
     "flux": "^2.1.1",
     "history": "^1.12.5",
     "jquery": "^2.1.4",
